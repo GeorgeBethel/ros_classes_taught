@@ -1,0 +1,2 @@
+beginner_tutorials
+-DCATKIN_DEVEL_PREFIX=/home/intellimath/rosclass_ws/devel -DCMAKE_INSTALL_PREFIX=/home/intellimath/rosclass_ws/install -G Unix Makefiles

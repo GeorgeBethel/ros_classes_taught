@@ -51,14 +51,14 @@ find_package(catkin REQUIRED COMPONENTS
  add_message_files(
    FILES
   led_state.msg
+  motor_drive.msg
  )
 
 ## Generate services in the 'srv' folder
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+ add_service_files(
+   FILES
+  led.srv
+)
 
 ## Generate actions in the 'action' folder
 # add_action_files(

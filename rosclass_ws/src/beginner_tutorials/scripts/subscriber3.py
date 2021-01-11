@@ -17,13 +17,13 @@ def callback(data):
 
         button = data.ledState
         
-        if button == "N":
+        if button == "F":
 
             GPIO.output(ledpin, True)
 
             rospy.loginfo("LED on")
 
-        elif button == "F":
+        elif button == "B":
 
             GPIO.output(ledpin, False)
 
